@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 99.8vw;
+    height: 98vh;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background-color:antiquewhite;
+    
+    /* border: 1px solid red; */
+}
+button {
+    box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
+    margin: 2rem auto 0 auto;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgb(92, 194, 64);
+    border-radius: 10px;
+}
+.red {
+    color: red;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 97, 75);
+
+}
+
+input {
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: none;
+    background-color: #EEE;
+    height: 2rem;
+    /* margin-bottom: 1rem; */
+    border-radius: 10px;
+}
+label {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+
+#registrationForm {
+ display: flex;
+ flex-direction: column;
+ /* gap: 5px; */
+ width: 360px;
+ padding: 2rem;
+ border-radius: 10px;
+ background-color: white;
+ box-shadow: 0px 3px 10px #AAA;
+}
+#registrationForm h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+#registrationForm p{
+    display: none;
+    font-size: .73rem;
+    margin: 0;
+    /* margin: 0px 0 10px 0 ; */
+}
+

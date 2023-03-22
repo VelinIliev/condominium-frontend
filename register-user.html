@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="registrationForm">
+        <h1>Регистрация</h1>
+        <label for="firstName">Име:<span class="red">*</span></label>
+        <input type="text" id="firstName" name="firstName">
+        <p class="red" id="errorMessageFirstName"></p>
+        <label for="lastName">Фамилия:<span class="red">*</span></label>
+        <input type="text" id="lastName" name="lastName">
+        <p class="red" id="errorMessageLastName"></p>
+        <label for="email">Email:<span class="red">*</span></label>
+        <input type="text" id="email" name="email">
+        <p class="red" id="errorMessageEmail"></p>
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone">
+        <p class="red" id="errorMessagePhone"></p>
+        <label for="password">Парола:<span class="red">*</span></label>
+        <input type="password" id="password" name="password">
+        <p class="red" id="errorMessagePassword"><span class="red"></span></p>
+        <label for="passwordRetype">Повторете паролата:<span class="red">*</span></label>
+        <input type="password" id="passwordRetype" name="passwordRetype">
+        <p class="red" id="errorMessagePasswordRetype"></p>
+        <label for="apartment">Апартамент №:<span class="red">*</span></label>
+        <input type="number" id="apartment" name="apartment" min="1" max="8" step="1" pattern="\d*">
+        <p class="red" id="errorMessageApartment"></p>
+        <p class="red" id="errorMessage"></p>
+        <button id="sumbitBtn">Въведи</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
